@@ -38,7 +38,29 @@
     gap:24px;
 }
 
+.nav__auth-button{
+    padding: 10px;
+    font-style: var(--body-font-size);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 300ms;
+}
 
+.nav__auth-button--signin{
+    background-color:transparent;
+}
 
+.nav__auth-button--signup{
+    padding: 10px 20x;
+    background-color:rgb(var(--primary-color));
+    color: rgb(var(--secondary-color));
+}
 
+.nav__auth-button--signin:hover{
+    background-color: #dddddd;
+}
+
+.nav__auth-button--signup:hover{
+    background-color:rgb(var(--primary-color), 0.8); 
 }
